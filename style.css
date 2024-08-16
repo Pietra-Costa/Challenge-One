@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+:root{
+    --bg-color: #E0E0E0;
+    --txt-color: #4B0082;
+    --box-color:#AAB2D5;
+    --aside: #AAB2D5;
+}
+
+body {
+    background-color: var(--bg-color);
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    
+}
+
+.content {
+    display: flex;    
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo{
+    margin-top: 20px;  
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 80px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    margin-left: 50px;
+    margin-top: 90px;  
+    outline: none;  
+}
+
+input::placeholder{
+    color: var(--txt-color);
+    font-size: 16px;
+}
+
+.attention{
+    display: flex;
+    margin-top: 400px;
+    margin-left: 50px;
+    
+}
+
+
+.attention span{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.material-symbols-outlined{
+    margin-right: 3px;
+}
+
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.cripto{
+    background-color: var(--txt-color);
+    text-decoration: none;
+    color: var(--bg-color);
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px 20px;
+    justify-content: center;
+    
+}
+
+.cripto:hover{
+    opacity: 70%;
+}
+
+
+.descripto{
+    border: solid 2px var(--txt-color);
+    text-decoration: none;
+    color: var(--txt-color);
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 10px 20px;    
+}
+
+.descripto:hover{
+    background-color: var(--txt-color);
+    color: var(--bg-color);
+}
+
+aside{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    background-color: var(--aside);
+    height: 550px;
+    width: 300px;
+    border-radius: 30px;
+    margin-top: 40px;
+
+}
+
+.meninalogo{
+    width: 250px;
+    display: flex;
+    margin: auto;
+}
+
+.titulo{
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.paragrafo{
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 8px;
+}
+
+.btn-copy{
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: var(--txt-color);
+    color: var(--bg-color);
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 40px;
+    margin-top: 150px;
+    margin-left: 50px;
+    
+}
+
+.btn-copy:hover{
+    opacity: 70%;
+}
