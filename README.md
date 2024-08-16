@@ -2,7 +2,7 @@
 
 Bem-vindo ao projeto **Criptografador de Mensagens**! Este projeto faz parte do programa **Oracle Next Education (ONE)** da Alura, onde aprendemos a criar uma ferramenta simples para criptografar e descriptografar mensagens de texto.
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/4c86dca5-cb81-478b-81c1-9ebc25f4ec52)
 
 
 
